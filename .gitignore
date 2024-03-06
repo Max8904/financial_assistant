@@ -1,8 +1,11 @@
-financial_assistant
-
 chromedriver.exe
 
+financial_assistant/
 crawler_file/
 sample_code/
+archive/
+model/
 
 test.py
+T5Generate.ipynb
+T5Train.ipynb
