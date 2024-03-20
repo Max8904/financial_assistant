@@ -18,7 +18,7 @@ import json
 options = Options()
 # 設定 headless 模式 (不顯示瀏覽器運作畫面)
 options.add_argument("--headless")
-options.chrome_executable_path = "D:/Python Project/financial_assistant/chromedriver.exe"
+options.chrome_executable_path = "D:/Python Project/financial_assistant/crawler/chromedriver.exe"
 # 建立 Driver 物件實體，用程式操作瀏覽器運作
 driver = webdriver.Chrome(options=options)
 

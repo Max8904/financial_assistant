@@ -5,8 +5,7 @@ financial_assistant/
 model/
 sample_code/
 
-chromedriver.exe
-
+crawler/chromedriver.exe
+summarizer/T5Generate.ipynb
+summarizer/T5Train.ipynb
 test.py
-T5Generate.ipynb
-T5Train.ipynb
