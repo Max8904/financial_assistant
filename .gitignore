@@ -1,10 +1,11 @@
-chromedriver.exe
-
-financial_assistant/
-crawler_file/
-sample_code/
+__pycache__
 archive/
+crawler_file/
+financial_assistant/
 model/
+sample_code/
+
+chromedriver.exe
 
 test.py
 T5Generate.ipynb
