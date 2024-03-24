@@ -4,6 +4,8 @@ crawler_file/
 financial_assistant/
 model/
 sample_code/
+financial_assistant_backend/
+financial_assistant_frontend/node_modules
 
 crawler/chromedriver.exe
 summarizer/T5Generate.ipynb
