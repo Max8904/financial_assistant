@@ -12,14 +12,16 @@ import NewsPage from './pages/NewsPage'
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Header />
-        <Routes>
-          <Route path='/' element={<NewsListPage />} />
-          <Route path='/news/:id' element={<NewsPage />} />
-        </Routes>
-        
+      <div className="container dark">
+        <div className="App">
+          <Header />
+          <Routes>
+            <Route path='/' element={<NewsListPage />} />
+            <Route path='/news/:id' element={<NewsPage />} />
+          </Routes>
+        </div>
       </div>
+      
     </Router>
   );
 }
